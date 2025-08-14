@@ -134,18 +134,6 @@ const SkillFlowDiagram: React.FC = () => {
             url: '#'
           }
         },
-        // {
-        //   id: 'cpp',
-        //   name: 'C++',
-        //   icon: '⚡',
-        //   category: 'backend',
-        //   certificate: {
-        //     name: 'Mastering Data Structures & Algorithms using C and C++',
-        //     organization: 'Udemy',
-        //     date: 'April 2024',
-        //     url: '#'
-        //   }
-        // }
       ]
     },
     {
@@ -168,6 +156,18 @@ const SkillFlowDiagram: React.FC = () => {
     {
       name: 'Tools & Cloud',
       skills: [
+        {
+          id: 'cpp',
+          name: 'C++',
+          icon: '⚡',
+          category: 'backend',
+          certificate: {
+            name: 'Mastering Data Structures & Algorithms using C and C++',
+            organization: 'Udemy',
+            date: 'April 2024',
+            url: '#'
+          }
+        },
         {
           id: 'github',
           name: 'GitHub',

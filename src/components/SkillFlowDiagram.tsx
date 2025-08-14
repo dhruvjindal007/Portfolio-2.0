@@ -52,9 +52,9 @@ const SkillFlowDiagram: React.FC = () => {
           category: 'frontend',
           certificate: {
             name: 'Web Development Fundamentals',
-            organization: 'FreeCodeCamp',
+            organization: 'Meta Front-End Developer Certificate',
             date: 'November 2024',
-            url: '#'
+            url: '#https://coursera.org/share/66e7073083ae3c04675ea08f1a47da48'
           }
         },
         {
@@ -64,9 +64,9 @@ const SkillFlowDiagram: React.FC = () => {
           category: 'frontend',
           certificate: {
             name: 'Advanced CSS and Sass',
-            organization: 'Udemy',
+            organization: 'Meta Front-End Developer Certificate',
             date: 'October 2024',
-            url: '#'
+            url: '#https://coursera.org/share/66e7073083ae3c04675ea08f1a47da48'
           }
         },
         {
@@ -76,9 +76,9 @@ const SkillFlowDiagram: React.FC = () => {
           category: 'frontend',
           certificate: {
             name: 'JavaScript Algorithms and Data Structures',
-            organization: 'FreeCodeCamp',
+            organization: 'Meta Front-End Developer Certificate',
             date: 'September 2024',
-            url: '#'
+            url: '#https://coursera.org/share/66e7073083ae3c04675ea08f1a47da48'
           }
         }
       ]
@@ -93,8 +93,8 @@ const SkillFlowDiagram: React.FC = () => {
           category: 'backend',
           certificate: {
             name: 'Django for Everybody Specialization',
-            organization: 'University of Michigan via Coursera',
-            date: 'August 2024',
+            organization: 'Meta Back-End Developer Certificate',
+            date: 'December 2024',
             url: '#'
           }
         },
@@ -105,8 +105,8 @@ const SkillFlowDiagram: React.FC = () => {
           category: 'backend',
           certificate: {
             name: 'Python for Everybody Specialization',
-            organization: 'University of Michigan via Coursera',
-            date: 'July 2024',
+            organization: 'Meta Back-End Developer Certificate',
+            date: 'December 2024',
             url: '#'
           }
         },
@@ -117,8 +117,8 @@ const SkillFlowDiagram: React.FC = () => {
           category: 'backend',
           certificate: {
             name: 'PHP Web Development',
-            organization: 'Udemy',
-            date: 'June 2024',
+            organization: '',
+            date: 'June 2025',
             url: '#'
           }
         },
@@ -129,23 +129,23 @@ const SkillFlowDiagram: React.FC = () => {
           category: 'backend',
           certificate: {
             name: 'Laravel Complete Course',
-            organization: 'Udemy',
-            date: 'May 2024',
+            organization: '',
+            date: 'May 2025',
             url: '#'
           }
         },
-        {
-          id: 'cpp',
-          name: 'C++',
-          icon: '⚡',
-          category: 'backend',
-          certificate: {
-            name: 'Mastering Data Structures & Algorithms using C and C++',
-            organization: 'Udemy',
-            date: 'April 2024',
-            url: '#'
-          }
-        }
+        // {
+        //   id: 'cpp',
+        //   name: 'C++',
+        //   icon: '⚡',
+        //   category: 'backend',
+        //   certificate: {
+        //     name: 'Mastering Data Structures & Algorithms using C and C++',
+        //     organization: 'Udemy',
+        //     date: 'April 2024',
+        //     url: '#'
+        //   }
+        // }
       ]
     },
     {
@@ -158,8 +158,8 @@ const SkillFlowDiagram: React.FC = () => {
           category: 'database',
           certificate: {
             name: 'MySQL Database Administration',
-            organization: 'Oracle University',
-            date: 'March 2024',
+            organization: 'Meta Back-End Developer Certificate',
+            date: 'December 2024',
             url: '#'
           }
         }
@@ -175,8 +175,8 @@ const SkillFlowDiagram: React.FC = () => {
           category: 'tools',
           certificate: {
             name: 'Git and GitHub Essentials',
-            organization: 'GitHub Learning Lab',
-            date: 'February 2024',
+            organization: 'Meta Back-End Certificate',
+            date: 'December 2024',
             url: '#'
           }
         },
@@ -187,8 +187,8 @@ const SkillFlowDiagram: React.FC = () => {
           category: 'cloud',
           certificate: {
             name: 'Google Cloud Platform Fundamentals',
-            organization: 'Google Cloud',
-            date: 'January 2024',
+            organization: '',
+            date: 'June 2024',
             url: '#'
           }
         },
@@ -199,8 +199,8 @@ const SkillFlowDiagram: React.FC = () => {
           category: 'cloud',
           certificate: {
             name: 'Microsoft Azure Fundamentals',
-            organization: 'Microsoft',
-            date: 'December 2023',
+            organization: '',
+            date: 'June 2025',
             url: '#'
           }
         }

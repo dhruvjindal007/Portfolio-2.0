@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { Code, Lightbulb, Users, Zap } from 'lucide-react';
+// import { Code, Lightbulb, Users, Zap } from 'lucide-react';
 import { useTheme } from '../context/ThemeContext';
 import CodePlayground from './CodePlayground';
 import FloatingSymbols from './FloatingSymbols';
@@ -10,12 +10,12 @@ const About: React.FC = () => {
   const { isDark } = useTheme();
   const [ref, inView] = useInView({ threshold: 0.3, triggerOnce: true });
 
-  const stats = [
-    { icon: Code, label: 'Projects Completed', value: '50+' },
-    { icon: Users, label: 'Happy Clients', value: '25+' },
-    { icon: Lightbulb, label: 'Creative Solutions', value: '100+' },
-    { icon: Zap, label: 'Years Experience', value: '5+' }
-  ];
+  // const stats = [
+  //   { icon: Code, label: 'Projects Completed', value: '50+' },
+  //   { icon: Users, label: 'Happy Clients', value: '25+' },
+  //   { icon: Lightbulb, label: 'Creative Solutions', value: '100+' },
+  //   { icon: Zap, label: 'Years Experience', value: '5+' }
+  // ];
 
   return (
     <section id="about" className={`py-20 relative ${isDark ? 'bg-gray-900' : 'bg-white'}`}>
@@ -108,7 +108,7 @@ const About: React.FC = () => {
           </motion.div>
         </div>
 
-        {/* Stats Section */}
+        {/* Stats Section
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
@@ -140,7 +140,7 @@ const About: React.FC = () => {
               </div>
             </motion.div>
           ))}
-        </motion.div>
+        </motion.div> */}
       </div>
     </section>
   );

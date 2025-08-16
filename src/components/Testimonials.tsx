@@ -11,38 +11,38 @@ const Testimonials: React.FC = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const testimonials: Testimonial[] = [
-    {
-      id: 1,
-      name: 'Mentor at WoRisGo',
-      role: 'Senior Software Engineer',
-      company: 'WoRisGo',
-      content: 'Dhruv showed exceptional dedication and diligence during his internship. His ability to optimize backend performance and reduce response times by 30% was impressive for someone at his level.',
-      avatar: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=200'
-    },
-    {
-      id: 2,
-      name: 'PWOC Coordinator',
-      role: 'Open Source Maintainer',
-      company: 'PEC Winter of Code',
-      content: 'Dhruv was among the top 1% contributors out of 200+ participants in PWOC. His code quality and problem-solving approach stood out throughout the program.',
-      avatar: 'https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=200'
-    },
-    {
-      id: 3,
-      name: 'Team Lead',
-      role: 'Project Coordinator',
-      company: 'PEC Technical Team',
-      content: 'Dhruv consistently delivers high-quality full-stack solutions. His work on the restaurant website with AI integration showcased his ability to work with cutting-edge technologies.',
-      avatar: 'https://images.pexels.com/photos/1310522/pexels-photo-1310522.jpeg?auto=compress&cs=tinysrgb&w=200'
-    },
-    {
-      id: 4,
-      name: 'Professor',
-      role: 'Faculty Advisor',
-      company: 'Punjab Engineering College',
-      content: 'Dhruv demonstrates excellent technical skills and a strong passion for software development. His participation in various tech competitions and open-source contributions is commendable.',
-      avatar: 'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=200'
-    }
+    // {
+    //   id: 1,
+    //   name: 'Mentor at WoRisGo',
+    //   role: 'Senior Software Engineer',
+    //   company: 'WoRisGo',
+    //   content: 'Dhruv showed exceptional dedication and diligence during his internship. His ability to optimize backend performance and reduce response times by 30% was impressive for someone at his level.',
+    //   avatar: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=200'
+    // },
+    // {
+    //   id: 2,
+    //   name: 'PWOC Coordinator',
+    //   role: 'Open Source Maintainer',
+    //   company: 'PEC Winter of Code',
+    //   content: 'Dhruv was among the top 1% contributors out of 200+ participants in PWOC. His code quality and problem-solving approach stood out throughout the program.',
+    //   avatar: 'https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=200'
+    // },
+    // {
+    //   id: 3,
+    //   name: 'Team Lead',
+    //   role: 'Project Coordinator',
+    //   company: 'PEC Technical Team',
+    //   content: 'Dhruv consistently delivers high-quality full-stack solutions. His work on the restaurant website with AI integration showcased his ability to work with cutting-edge technologies.',
+    //   avatar: 'https://images.pexels.com/photos/1310522/pexels-photo-1310522.jpeg?auto=compress&cs=tinysrgb&w=200'
+    // },
+    // {
+    //   id: 4,
+    //   name: 'Professor',
+    //   role: 'Faculty Advisor',
+    //   company: 'Punjab Engineering College',
+    //   content: 'Dhruv demonstrates excellent technical skills and a strong passion for software development. His participation in various tech competitions and open-source contributions is commendable.',
+    //   avatar: 'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=200'
+    // }
   ];
 
   useEffect(() => {
@@ -63,17 +63,17 @@ const Testimonials: React.FC = () => {
 
   return (
     <section className={`py-20 ${isDark ? 'bg-gray-900' : 'bg-white'}`}>
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-4xl px-4 mx-auto sm:px-6 lg:px-8">
         <motion.div
           ref={ref}
           initial={{ opacity: 0, y: 50 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.8 }}
-          className="text-center mb-16"
+          className="mb-16 text-center"
         >
-          <h2 className={`
+          {/* <h2 className={`
             text-4xl md:text-5xl font-bold mb-6
-            ${isDark 
+            ${isDark
               ? 'text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-400' 
               : 'text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600'
             }
@@ -83,7 +83,7 @@ const Testimonials: React.FC = () => {
           <div className={`w-20 h-1 mx-auto rounded ${isDark ? 'bg-cyan-400' : 'bg-blue-500'}`} />
           <p className={`mt-6 text-lg max-w-3xl mx-auto ${isDark ? 'text-gray-300' : 'text-gray-600'}`}>
             Don't just take my word for it - here's what colleagues and clients have to say about my work.
-          </p>
+          </p> */}
         </motion.div>
 
         <div className="relative">
@@ -126,7 +126,7 @@ const Testimonials: React.FC = () => {
                 <motion.img
                   src={testimonials[currentIndex].avatar}
                   alt={testimonials[currentIndex].name}
-                  className="w-16 h-16 rounded-full object-cover"
+                  className="object-cover w-16 h-16 rounded-full"
                   whileHover={{ scale: 1.1 }}
                 />
                 <div>

@@ -15,7 +15,7 @@ const Experience: React.FC = () => {
       title: 'Software Engineering Intern',
       company: 'WoRisGo (Remote)',
       period: 'May 2025 - June 2025',
-      description: 'Built server-side logic and backend architecture. Reduced backend response time by 30%. Praised for dedication and diligence by mentor.',
+      description: 'Built server-side logic and backend architecture. Reduced backend response time by 30%.',
       type: 'work'
     },
     {
@@ -23,7 +23,7 @@ const Experience: React.FC = () => {
       title: 'B.Tech (Electrical Engineering)',
       company: 'Punjab Engineering College (PEC)',
       period: '2022 - Present',
-      description: 'Currently pursuing Bachelor of Technology in Electrical Engineering. CGPA: 6.89 (Till 3rd Semester). Active participant in tech competitions and open-source contributions.',
+      description: 'Currently pursuing Bachelor of Technology in Electrical Engineering. Active participant in tech competitions and open-source contributions.',
       type: 'education'
     },
     {
@@ -31,7 +31,7 @@ const Experience: React.FC = () => {
       title: '12th Class (CBSE)',
       company: "St. Peter's Senior Secondary School",
       period: '2021 - 2022',
-      description: 'Completed higher secondary education with 89.4% marks in CBSE board. Strong foundation in Mathematics and Physics.',
+      description: 'Completed higher secondary education in CBSE board. Strong foundation in Mathematics and Physics.',
       type: 'education'
     },
     {
@@ -39,20 +39,20 @@ const Experience: React.FC = () => {
       title: '10th Class (CBSE)',
       company: 'Ryan International School',
       period: '2019 - 2020',
-      description: 'Completed secondary education with excellent 94.2% marks in CBSE board. Strong academic foundation with focus on Science and Mathematics.',
+      description: 'Completed secondary education in CBSE board. Strong academic foundation with focus on Science and Mathematics.',
       type: 'education'
     }
   ];
 
   return (
     <section id="experience" className={`py-20 ${isDark ? 'bg-gray-800' : 'bg-gray-50'}`}>
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-4xl px-4 mx-auto sm:px-6 lg:px-8">
         <motion.div
           ref={ref}
           initial={{ opacity: 0, y: 50 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.8 }}
-          className="text-center mb-16"
+          className="mb-16 text-center"
         >
           <h2 className={`
             text-4xl md:text-5xl font-bold mb-6
